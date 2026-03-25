@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../.types",
+    "rootDir": "../..",
+    "composite": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true
+  },
+  "include": [
+    "../.astro/types.d.ts",
+    "env.d.ts",
+    "**/*.ts"
+  ]
+}

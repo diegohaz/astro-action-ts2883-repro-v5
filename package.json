@@ -1,0 +1,15 @@
+{
+  "name": "astro-action-ts2883-repro-v5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "cd site && npx astro sync",
+    "check": "npx tsc -b site/src"
+  },
+  "dependencies": {
+    "astro": "5.18.1"
+  },
+  "devDependencies": {
+    "typescript": "6.0.2"
+  }
+}
